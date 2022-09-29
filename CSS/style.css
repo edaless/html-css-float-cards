@@ -5,11 +5,12 @@
 }
 
 body{
+    /* background: aqua; */
     
 }
 
 main{
-    background:grey;
+    /* background:rgb(112, 8, 8); */
     width:70%;
     margin-left: 15%;
     text-align: center;
@@ -26,25 +27,47 @@ h1{
 
 .badge{
     background: #000;
-    margin:20px 5%;
+    margin:20px 2.5%;
     height:80px;
-    width: calc(70%/3);
+    width: calc(85%/3);
     text-align: left;
+    float: left;
 
 }
 
 img{
     height:100%;
+    float: left;
+    /* questo float sposta l'immagine dentro al badge.
+    serve per poter scrivere in alto il nome. */
+    margin-right: 15px;
 }
+
 .dati{
-    display: inline-block;
-    background: green;
-    height: 20px;
-    width: auto;
-
-
+    margin:0;
+    height:80px;
+    background-color: blueviolet;
+    line-height: 80%;
+    vertical-align: middle;
 }
+
 
 .nome{
     color: white;
+    margin-top: 7px;
+
 }
+
+
+.professione{
+    color: grey;
+    font-size: 11px;
+
+}
+
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color: aqua;
+}
+
