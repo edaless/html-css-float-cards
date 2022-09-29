@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+main{
+    background:grey;
+    width:70%;
+    margin-left: 15%;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+
+}
+
+h1{
+    color:brown;
+    font-family: 'Fredoka One', cursive;
+    margin:30px 0;
+}
+
+.badge{
+    background: #000;
+    margin:20px 5%;
+    height:80px;
+    width: calc(70%/3);
+    text-align: left;
+
+}
+
+img{
+    height:100%;
+}
+.dati{
+    display: inline-block;
+    background: green;
+    height: 20px;
+    width: auto;
+
+
+}
+
+.nome{
+    color: white;
+}
