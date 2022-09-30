@@ -39,6 +39,7 @@ h1{
     width: calc(85%/3);
     text-align: left;
     float: left;
+    overflow-y: hidden;
 
 }
 
